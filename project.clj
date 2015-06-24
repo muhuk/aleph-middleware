@@ -1,4 +1,4 @@
-(defproject aleph-middleware "0.1.0-SNAPSHOT"
+(defproject aleph-middleware "0.1.1-SNAPSHOT"
   :description "Ring middleware that support deferred responses."
   :url "https://github.com/muhuk/aleph-middleware"
   :license {:name "The MIT License"
