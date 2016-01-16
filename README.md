@@ -10,7 +10,23 @@ versions of these middleware.
 
 Add the following to your `:dependencies`:
 
+
     [aleph-middleware "0.1.1"]
+
+
+Replace `ring.middleware.*` with `aleph.middleware.*`. Available middleware are:
+
+
+- `aleph.middleware.content-type/wrap-content-type`
+- `aleph.middleware.cookies/wrap-cookies`
+- `aleph.middleware.file-info/wrap-file-info`
+- `aleph.middleware.not-modified/wrap-not-modified`
+- `aleph.middleware.session/wrap-session`
+
+
+Middleware that doesn't wrap responses can be used with Aleph without
+modification. If there are any other response wrapping middleware shipped with
+Ring, please [create an issue](https://github.com/muhuk/aleph-middleware/issues).
 
 Current version of `aleph-middleware` depends on `[aleph "0.4.0"]` &
 `[ring/ring-core "1.4.0"]`.
@@ -20,6 +36,6 @@ Note that you don't have convert your normal responses to deferreds.
 
 ## License
 
-Copyright © 2015 Atamert Ölçgen
+Copyright © 2015-2016 Atamert Ölçgen
 
 Distributed under the MIT License
