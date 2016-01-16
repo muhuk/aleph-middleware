@@ -1,3 +1,9 @@
+;; Copyright © 2015-2016 Atamert Ölçgen
+;;
+;; Distributed under the The MIT License
+;; http://opensource.org/licenses/MIT
+
+
 (ns aleph.middleware.util
   (:require [manifold.deferred :as d]))
 

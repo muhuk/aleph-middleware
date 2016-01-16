@@ -1,3 +1,9 @@
+;; Copyright © 2015-2016 Atamert Ölçgen
+;;
+;; Distributed under the The MIT License
+;; http://opensource.org/licenses/MIT
+
+
 (ns aleph.middleware.file-info
   (:require [aleph.middleware.util :refer [defer]]
             [ring.middleware.file-info :refer [file-info-response]]))

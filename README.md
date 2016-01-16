@@ -10,10 +10,10 @@ versions of these middleware.
 
 Add the following to your `:dependencies`:
 
-    [aleph-middleware "0.1.0"]
+    [aleph-middleware "0.1.1"]
 
 Current version of `aleph-middleware` depends on `[aleph "0.4.0"]` &
-`[ring/ring-core "1.4.0-RC1"]`.
+`[ring/ring-core "1.4.0"]`.
 
 Note that you don't have convert your normal responses to deferreds.
 
