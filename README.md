@@ -11,7 +11,7 @@ versions of these middleware.
 Add the following to your `:dependencies`:
 
 
-    [aleph-middleware "0.1.1"]
+    [aleph-middleware "0.1.2"]
 
 
 Replace `ring.middleware.*` with `aleph.middleware.*`. Available middleware are:
