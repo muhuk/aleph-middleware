@@ -29,7 +29,7 @@ modification. If there are any other response wrapping middleware shipped with
 Ring, please [create an issue](https://github.com/muhuk/aleph-middleware/issues).
 
 Current version of `aleph-middleware` depends on `[aleph "0.4.1"]` &
-`[ring/ring-core "1.4.0"]`.
+`[ring/ring-core "1.5.0"]`.
 
 Note that you don't have convert your normal responses to deferreds.
 
