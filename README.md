@@ -33,6 +33,12 @@ Current version of `aleph-middleware` depends on `[aleph "0.4.1"]` &
 
 Note that you don't have convert your normal responses to deferreds.
 
+## Other middlewares
+
+aleph-middleware also has support for other, "none core" middlewares. In order
+to use them, you need to add dependecies to your project. These are:
+
+- `aleph.middleware.cors` - add [ring-cors "0.1.10"] or greater
 
 ## License
 
