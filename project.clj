@@ -6,5 +6,4 @@
   :dependencies [[aleph "0.4.1"]
                  [org.clojure/clojure "1.8.0"]
                  [ring/ring-core "1.5.0"]]
-
   :profiles {:dev {:dependencies [[ring-cors "0.1.10"]]}})
